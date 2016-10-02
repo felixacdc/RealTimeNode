@@ -1,0 +1,21 @@
+html(lang="en")
+    head
+      meta(charset="UTF-8")
+      title Dibujemos
+      link(href="/app.css", rel="stylesheet")
+    body
+      div(id="connections")
+      div(id="cursors")
+        <!-- Aqui pondremos los cursores de nuestros amigos -->
+
+      canvas(id="paper" width="1200" height="800")
+        Tu navegador debe soportar canvas
+
+      hgroup(id="instructions")
+        h1 ¡Dibujemos!
+        h2 Dibuja en cualquier lugar con tu cursor
+        h3 Si quieres un canvas nuevo simplemente refresca la página
+
+      script(src="/socket.io/socket.io.js")
+      script(src="/jquery-3.1.1.min.js")
+      script(src="/app.js")

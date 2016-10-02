@@ -1,0 +1,26 @@
+{
+  "name": "realtimenode",
+  "version": "1.0.0",
+  "description": "Dibujando con node.js y socket.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felixacdc/RealTimeNode.git"
+  },
+  "author": "Félix Méndez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felixacdc/RealTimeNode/issues"
+  },
+  "homepage": "https://github.com/felixacdc/RealTimeNode#readme",
+  "dependencies": {
+    "engine": "^0.1.12",
+    "express": "^4.14.0",
+    "jade": "^1.11.0",
+    "socket.io": "^1.4.8",
+    "stylus": "^0.54.5"
+  }
+}
